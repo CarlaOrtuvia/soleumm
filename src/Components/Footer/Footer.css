@@ -1,0 +1,33 @@
+/* Estilos para el Footer */
+.footer {
+   /* background-color: rgba(204, 115, 81, 0.8);*/ /* Fondo con transparencia */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+   
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para los íconos de redes sociales */
+.footer .social-icon {
+    margin: 0 5px; /* Espaciado entre los íconos */
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s; /* Transición para el efecto hover */
+}
+
+.footer .social-icon:hover {
+    transform: scale(1.5); /* Agrandar ícono al pasar el mouse */
+}
+
+/* Asegurar que el Footer esté siempre al final */
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
