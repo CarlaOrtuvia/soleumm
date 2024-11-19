@@ -2,9 +2,9 @@
 .icons-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Tres columnas */
-  gap: 20px; /* Espacio entre los íconos */
+  gap: 3px; /* Espacio entre los íconos */
   justify-items: center; /* Centra los íconos horizontalmente */
-  padding: 20px;
+  padding: 2px;
 }
 
 .icon-content {
@@ -12,6 +12,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-left:20px;
+  width: max-content;
 }
 
 .circle-background {
@@ -36,6 +38,7 @@
 .icon-image{
   width: 60px;
   height: 60px;
+  align-items: center;
 }
 .icon-link {
   text-decoration: none; /* Elimina el subrayado */
@@ -45,8 +48,8 @@
 .title-icon h5 {
   width: 100px; /* Alineación con el círculo */
   text-align: center;
-  font-size: 0.9em; 
-  color: #FFF5E4;
+  font-size: 1.0em; 
+  color: #D0E8C5;
   text-decoration: none; /* Eliminar subrayado */
 
 }

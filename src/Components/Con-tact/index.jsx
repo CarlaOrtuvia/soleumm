@@ -3,6 +3,7 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import "./Contact.css"
 
 export const Contact = () =>{
     return (
@@ -14,19 +15,19 @@ export const Contact = () =>{
             height:"380px"
            
              }}>
-        <Card.Header> 
+        <Card.Header className="card-header"> 
         <img
     src="/images/8-removebg-preview.png"
     alt= "icon-image"
-    style={{ width: "60px", height: "60px" }}/>
+    style={{ width: "60px", height: "60px" }}/><h4 style={{color:"#D0E8C5"}}>CONTACTO</h4>
   </Card.Header>
-        <Card.Body>        
-          <Card.Text>
-            <div style={{ marginLeft:"20px"}}>
+        <Card.Body className="card.body">        
+          <Card.Text className="card-text">
+            <div>
               <h4>NUESTROS MEDIOS DE CONTACTO</h4>
             </div>
             <div style={{marginLeft: "30px"}}>
-            <Form>
+            <Form className="form-container">
       <Form.Group className=" ml-3" controlId="formBasicEmail">
         <Form.Label>Email</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />

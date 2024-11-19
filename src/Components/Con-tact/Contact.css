@@ -1,0 +1,16 @@
+.card-header {
+    margin-left: 25px;
+}
+.card-body {
+    margin-left: 25px;
+}
+.card-text {
+ color: #D0E8C5;
+}
+.form-container {
+    padding: 15px;
+}
+.text-muted {
+ color:#C5D3E8 ;
+ margin-left: 5px;
+}
